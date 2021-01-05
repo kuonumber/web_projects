@@ -24,5 +24,9 @@
 * ritwickdey.live-sass  
 * ritwickdey.liveserver  
 
+## compression
+[tiny-png](https://tinypng.com/)  
 
+## deployment
+[netlify](https://app.netlify.com/)
 
