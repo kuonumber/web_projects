@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
 }
 
 header{
@@ -26,6 +30,44 @@ nav ul li{
 
 
 nav ul li a{
-    color: white;
+    color: rgb(192,192,192);
     text-decoration: none;
+    transition: all 0.25 ease;
+    font-size: 1.25rem;
 }
+nav ul li a:hover{
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+section.left{
+    padding: 1rem;
+}
+
+section.right{
+    padding: 1.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.right p{
+
+    margin: 1rem 0rem;
+}
+
+section.right h4{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.header-title{
+    font-size: 2.5rem;
+}
+.header-text{
+    font-size: 1rem;
+}
+
